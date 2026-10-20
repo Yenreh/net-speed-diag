@@ -143,6 +143,7 @@ Extending:
   Raises on every public function, constants documented with a docstring below them.
 * Tests: `unittest`, no network access, `.venv/bin/python -m unittest discover -s tests`.
 * Dashboard: single template, vanilla JS, inline SVG charts, no build step. Editorial dark
-  theme (Fraunces / IBM Plex); flat colors, no gradients; check there is no horizontal
+  theme (Fraunces / IBM Plex), violet fills and accents; flat colors, no gradients. Inner
+  scroll areas (logs) use `overscroll-behavior: contain`; check there is no horizontal
   scroll from 390 px to desktop width after layout changes.
 * Commit messages short, no co-author lines.
